@@ -151,7 +151,7 @@ body {
 
 .links-utiles .links a{
   text-decoration: none;
-  color: var(--ColorFuente);
+  color: var(--ColorEncabezado);
   transition: all 0.3s;
 }
 
