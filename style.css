@@ -30,6 +30,8 @@ body {
   top: 0;
   left: 0;
   z-index: 99;
+  border-bottom: 1px solid var(--ColorFuente);
+  
 }
 
 
@@ -146,7 +148,8 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style: none;  
+  list-style: none; 
+  
 }
 
 .links-utiles .links {
@@ -160,6 +163,8 @@ h4 {
   margin-top: 25px;
   margin-bottom: 25px;
   border-radius: 28px; 
+  border: 1px solid var(--ColorFuente);
+  
   }
 
 .links-utiles .links a{
@@ -195,11 +200,17 @@ h4 {
     margin: 0;
     background-color: var(--ColorEncabezado);
     position: fixed;
-    top: 80px;
+    top: 79px;
     /* overflow-y: auto; */
     left: 100%; /*Controlo lo que sala hacia la izquierda*/
 
+    border-bottom: 1px solid var(--ColorFuente);
+    border-left: 1px solid var(--ColorFuente);
+
+    border-radius: 0  0  0 18px; 
     transition: left 0.5s;
+  
+
   }
 
   .nav-menu-item {
@@ -213,7 +224,7 @@ h4 {
 
   .nav-menu.nav-menu_visible {
     right: 0;/*Esto oculta el menu */
-    left: initial; /*Controlo lo que sala hacia la izquierda*/
+    left: initial; 
 
   }
 
@@ -233,6 +244,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-direction: row; 
+  border-top: 1px solid var(--ColorFuente);
 }
 
 .logo-Pie img{
