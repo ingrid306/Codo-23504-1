@@ -180,6 +180,14 @@ h4 {
 }
 
 
+.QR{
+  width: 150px;
+  height: 150x;
+
+  margin: auto;
+  
+}
+
 /***** Celular *****/
 @media (max-width: 800px) {
 
